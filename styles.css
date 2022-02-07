@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: raleway;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(253,212,106), rgb(255,241,170) ) ;
+}
+
+.conteiner{
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.conteiner section{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner section .content{
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+}
+
+.conteiner section .content h2{
+    font-size: 4em;
+    color: rgb(52,41,45);
+}
+
+.conteiner section .content p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: rgb(26,80,86);
+}
+
+.logo{
+    padding-top: 15px;
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+}
